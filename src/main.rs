@@ -10,7 +10,7 @@ const MSG_SIZE: usize = 32; // We're defining the maximum size of messages we ca
 
 // Function to make the program pause for a short while
 fn sleep() { // This is a function called "sleep".
-    thread::sleep(::std::time::Duration::from_millis(100)); // It makes the program wait for a short time before continuing.
+    thread::sleep(::std::time::Duration::from_millis(100)); // It makes the program wait for a short time before continuing. small change
 }
 
 // The main part of our program
